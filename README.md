@@ -17,7 +17,9 @@ Background Services:
 
 Example: Data sync karna ya file download karna jo user ke direct interaction ke bina hota hai.
 Usage: startService()
-Restrictions: Android 8.0 se kuch restrictions lagayi gayi hain. JobIntentService ya WorkManager ka use suggest kiya jata hai.
+Restrictions: Android 8.0 se kuch restrictions lagayi gayi hain. JobIntentService ya WorkManager ka use suggest kiya 
+jata hai.
+Foreground Service aik aisi service hoti hai jo continuously background mein chalti rehti hai aur user ko notify karti rehti hai. Ye service un applications ke liye useful hoti hai jahan pe continuous task chalana hota hai, jese music player, fitness tracking apps, etc.
 Bound Services:
 
 Example: Service jo multiple activities ko data provide karti hai. Example is accessing a remote server.
